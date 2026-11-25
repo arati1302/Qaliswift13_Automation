@@ -1,0 +1,13 @@
+{
+  "name": "qualiswift-generated-tests",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/node": "22.19.19",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "validate": "playwright test --list"
+  }
+}
